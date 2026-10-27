@@ -1,0 +1,11 @@
+name = "spmmwardha-api"
+main = "worker.js"
+compatibility_date = "2026-10-26"
+
+[[kv_namespaces]]
+binding = "SITE_DATA"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
+
+# Set these as Worker secrets in Cloudflare, not as plain-text variables:
+# ADMIN_PASSWORD, CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY, CLOUDINARY_API_SECRET
+# Optional comma-separated origin allowlist variable: ALLOWED_ORIGINS
