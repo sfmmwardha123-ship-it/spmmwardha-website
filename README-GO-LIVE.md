@@ -69,3 +69,7 @@ Once the custom domain works, add `https://spmmwardha.org/` to Google Search Con
 - Shared updates are stored in Cloudflare KV and are designed to be read by all visitors. KV propagation is not guaranteed to be instant everywhere.
 - The project has **not** been deployed or tested against your live accounts from this package. You must verify the login, saving, and upload flows after setup.
 - Free plans have quotas and terms that may change. Check current GitHub, Cloudflare, and Cloudinary limits before production use.
+
+
+## Colour restoration update (2026-10-27)
+The hero background image extracted from the original supplied HTML is restored at `assets/hero-background.jpg`. The pale blue overlay was reduced and the hero glass card opacity was increased to improve contrast. The rest of the HTML, content, admin editor, Cloudflare Worker integration, and assets were retained. Test this package before publishing; it has not been deployed to the live domain.
